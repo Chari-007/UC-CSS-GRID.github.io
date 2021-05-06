@@ -1,0 +1,126 @@
+*{margin: 0; padding: 0; 
+box-sizing: border-box; text-align: center; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top:0;
+  width: 100%;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+main{
+ width: 75%; margin: 100px auto;
+ display: grid; color: white;
+ grid-template-rows: 35px 100px 380px 25px 100px 100px 100px 100px 100px 100px 400px;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 10px;
+ 
+}
+
+
+
+ .div1{ background-color: red; 
+  grid-column: 1/-1;
+  text-align: right;
+ }
+ .div2{
+  background-size: cover;
+ }
+ .div3{
+  background-size: cover;
+ }
+ .div4{
+  background-size: cover;
+ }
+ .div5{ background-color: grey;
+  grid-row:2/4; grid-column: 4/5;
+ color: white;
+  
+}
+b{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ .div6{ background-color: transparent; 
+  grid-column: 1/ 4;
+  
+ }
+ .div7{ background-color: #00d2d3;
+ grid-column: 1/-1;
+  }
+  .div8{
+  background-size: cover;
+  }
+  .div9{
+  background-size: cover;
+  }
+  .div10{
+  background-size: cover;
+  grid-column: 3/5;
+  grid-row: 5/7;
+  }
+  .div11{
+  background-size: cover;
+  }
+  .div12{
+  background-size: cover;
+  grid-column: 1/2;
+  grid-row: 6/9; 
+  }
+  .div13{
+  background-size: cover;
+  grid-row: 7/9;
+  grid-column: 2/4;
+  }
+  .div14{
+  background-size: cover;
+  }
+  .div15{
+  background-size: cover;
+  grid-row: 8/11;
+  grid-column: 4/5;
+  }
+  .div16{
+  background-size: cover;
+  grid-column: 1/4;
+  grid-row: 9/11;
+  }
+  .div17{
+  background-size: cover;
+  grid-column: 1/-1; 
+  }
+
+  body {
+  background-image: url("Sky-cov.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
