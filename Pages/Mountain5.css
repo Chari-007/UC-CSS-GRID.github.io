@@ -1,0 +1,65 @@
+*{margin: 0; padding: 0; 
+box-sizing: border-box; text-align: center; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top:0;
+  width: 100%;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+main{
+ width: 75%; margin: 100px auto;
+ display: grid; color: white;
+ grid-template-rows:35px 400px 20px;
+ grid-template-columns: auto;
+ grid-gap: 10px;
+ 
+}
+
+
+.div1{ background-color: red; 
+  text-align: right;
+  grid-column: 1/-1;
+ }
+ .div2{background-size: cover;
+ }
+ .div3{grid-row: 3/4;
+   
+ }
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+body {
+  background-image: url("..//Sky-cov.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
